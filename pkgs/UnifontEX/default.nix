@@ -28,11 +28,13 @@ stdenvNoCC.mkDerivation rec {
   '';
 
   meta = {
-    description = "An extended fork of GNU Unifont with a focus on high compatibility.";
+    description = "An extended fork of GNU Unifont with a focus on high compatibility";
     # Idk what to write here
     # longDescription = ''
     # '';
-    homepage = "https://stgiga.github.io/UnifontEX/";
+    homepage = "https://stgiga.github.io/UnifontEX/sleek.htm";
+    donationPage = "https://github.com/sponsors/stgiga";
+    downloadPage = "https://github.com/stgiga/UnifontEX/releases";
 
     # Other 'Unifont' packages have the same license and since UnifontEX is
     # their fork I guess it's the same
