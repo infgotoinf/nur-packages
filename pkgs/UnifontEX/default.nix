@@ -16,7 +16,7 @@ stdenvNoCC.mkDerivation rec {
   # https://github.com/nix-community/nur-combined/blob/main/repos/Dev380/pkgs/blobmoji/default.nix
   src = fetchurl {
     url = "https://github.com/stgiga/UnifontEX/releases/download/${version}/UnifontExMono.ttf";
-    hash = "sha256-d2840072b230b46dde7a6156f6f45ed0dac37b1def2ce0fdbf88aaf7bb3f3352";
+    sha256 = "d2840072b230b46dde7a6156f6f45ed0dac37b1def2ce0fdbf88aaf7bb3f3352";
   };
 
   dontUnpack = true;
